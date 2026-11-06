@@ -13,3 +13,8 @@ h2 {
   display: inline;
   margin-right: 10px;
 }
+
+model-viewer{
+         width:1000px;
+         height:1000px;
+    }
