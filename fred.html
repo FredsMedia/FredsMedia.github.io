@@ -14,6 +14,7 @@ width: 50%;
 height: auto;
 }
 </style>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 <ul>
   <li><a href="/">Home</a></li>
   <li><a href="ocs.html">OCs</a></li>
@@ -25,14 +26,7 @@ height: auto;
 <h1>Fred</h1>
  
 <p>Fred is an adventurous and social dragon always willing to lend a hand when he is needed.</p>
-<p>To view Fred in AR on a device running at least iOS 18, use the following links:</p>
-<ul>
-  <li><a href="./Fred/FredFull.usdz">High Quality (12.3MB)</a></li>
-  <li><a href="./Fred/FredComp2048.usdz">Medium Quality (6.4MB)</a></li>
-  <li><a href="./Fred/FredComp1024.usdz">Low Quality (3.4MB)</a></li>
-  <li><a href="./Fred/FredComp512.usdz">Very Low Quality (2.3MB)</a></li>
-</ul>
-<p>Note, the ghost hands are only a rough representation. Refer to the reference sheet for the most accurate depiction.</p>
+
 <h2>Full Legal Name</h2>
 <p>Fred Bruna</p>
 
@@ -70,6 +64,24 @@ height: auto;
 <p>Fred met Archy from an accidental Christmas gift. With Australia and Austria sounding far too alike on Christmas Eve, Santa touched down at the wrong address - Fred waking on Christmas morning to a very unexpected delivery. It wasn't long before Archy hatched and was raised by Fred.</p>
 
 <p>After studying someone training for a barista course, he applied and found his extra set of hands to be extremely benificial while behind the counter - although he usually need a stool to reach equipment on the bench. While he is not employed as a barista, he helps out local businesses from time to time.</p>
+
+<h2>3D/AR View</h2>
+<model-viewer src="./Fred/Fred.glb" 
+              alt="3D Model of Fred" 
+              ar 
+              ar-modes="webxr scene-viewer quick-look" 
+              camera-controls 
+              auto-rotate>
+</model-viewer>
+
+<p>To view Fred in AR on an iOS device running at least iOS 18, use the following links:</p>
+<ul>
+  <li><a href="./Fred/FredFull.usdz">High Quality (12.3MB)</a></li>
+  <li><a href="./Fred/FredComp2048.usdz">Medium Quality (6.4MB)</a></li>
+  <li><a href="./Fred/FredComp1024.usdz">Low Quality (3.4MB)</a></li>
+  <li><a href="./Fred/FredComp512.usdz">Very Low Quality (2.3MB)</a></li>
+</ul>
+<p>Note, the ghost hands are only a rough representation. Refer to the reference sheet for the most accurate depiction.</p>
 
 <h2>Images</h2>
 <h5>Save the images to view in full quality!</h5>
