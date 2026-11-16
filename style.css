@@ -15,6 +15,6 @@ h2 {
 }
 
 model-viewer{
-         width:1000px;
-         height:1000px;
-    }
+    width: min(100%, 1000px);
+    height: min(100vw, 1000px);
+}
