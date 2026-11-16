@@ -72,16 +72,15 @@ height: auto;
   <li><a href="/Archy/ArchyComp512.usdz">Very Low Quality (6MB)</a></li>
 </ul>
 <h3>Android/Other</h3>
-<model-viewer src="/Archy/Archy.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" shadow-intensity="1">
-    <div class="progress-bar hide" slot="progress-bar">
-        <div class="update-bar"></div>
-    </div>
-    <button slot="ar-button" id="ar-button">
-        View in your space
-    </button>
+<model-viewer src="./Archy/gltf/Archy.gltf" 
+              alt="3D Model of Archy" 
+              ar 
+              ar-modes="webxr scene-viewer quick-look" 
+              camera-controls>
+              <button slot="ar-button" id="ar-button">
+              View in your space
+              </button>
 </model-viewer>
-<p>Note: The model is not yet available for Android/Other devices. Please use reference sheets in the meantime.</p>
-
 <h2>Images</h2>
 <img src="/Archy/Archy_Reference_Sheet_Light.png" alt="Archy Reference Sheet Light" width="1280" height="720">
 <p>Light Reference Sheet</p>
