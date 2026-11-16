@@ -20,7 +20,8 @@ model-viewer{
     width: min(100%, 1000px);
     height: min(100vw, 1000px);
 }
- ul {
+
+.navbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -28,11 +29,11 @@ model-viewer{
   background-color: #333333;
 }
 
-ul li {
+.navbar ul li {
   float: left;
 }
 
-ul li a {
+.navbar ul li a {
   display: block;
   color: white;
   text-align: center;
@@ -40,6 +41,6 @@ ul li a {
   text-decoration: none;
 }
 
-ul li a:hover {
+.navbar ul li a:hover {
   background-color: #111111;
 }
