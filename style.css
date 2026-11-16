@@ -13,7 +13,9 @@ h2 {
   display: inline;
   margin-right: 10px;
 }
-
+p {
+    font-size: 18px;
+}
 model-viewer{
     width: min(100%, 1000px);
     height: min(100vw, 1000px);
